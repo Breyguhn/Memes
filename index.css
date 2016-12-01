@@ -1,6 +1,11 @@
        /* Bordered form */
 form {
-       border: 3px sold #f1f1f1;       
+       border: 3px sold #f1f1f1;
+       width: 470px;
+       margin: 140px auto;
+       padding-top: 50px;
+       padding-bottom: 10px;
+       border-radius: 50px;
 }
 
 /* Full-width inputs */
@@ -39,7 +44,7 @@ button {
 
 /* Avatar image */
 img.avatar {
-       width: 10%;
+       width: 30%;
        border-radius: 50px;
 }
 
@@ -50,6 +55,7 @@ img.avatar {
 
 /* The "Forgotten Password" text */
 span.passwd {
+       font-family: Helvetica;
        display: block;
        float: none;
 }

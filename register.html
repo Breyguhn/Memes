@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Register</title>
+    <link rel="stylesheet" href="register.css">
+</head>
+
+<body bgcolor="#3994EF">
+    
+    <h1 class="heading"><center>Register!</center></h1>
+            
+    <!-- Registration form -->
+    <div class="form">
+        <form id="contactform">
+            <p class="contact"><label for="firstName">First Name</label></p>
+            <input id="firstName" name="firstName" placeholder="First Name" required="" tabindex="1" type="text">
+            
+            <p class="contact"><label for="lastName">Last Name</label></p>
+            <input id="lastName" name="lastName" placeholder="Last Name" required="" type="text">
+            
+            <p class="contact"><label for="email">Email</label></p>
+            <input id="email" name="email" placeholder="youremail@domain.com" required="" type="email">
+            
+            <p class="contact"><label for="username">Create a username</label></p>
+            <input id="username" name="username" placeholder="Username" required="" type="text">
+            
+            <p class="contact"><label for="password">Create a password</label></p>
+            <input id="password" name="password" placeholder="Password" required="" type="password">
+            <p class="contact"><label for="repassword">Confirm your password</label></p>
+            <input id="password" name="password" placeholder="Password" required="" type="password">
+            
+            <!-- Birthday selectors -->
+            <fieldset>
+                <label>Birthday</label>
+                
+                <label> Day <input class="birthday" max="2" name="birthDay" placeholder="Day" required=""></label>
+                
+                <label class="month">
+                    <select class="select-style" name="birthMonth">
+                        <option value="">Month</option>
+                        <option value="01">January</option>
+                        <option value="02">February</option>
+                        <option value="03">March</option>
+                        <option value="04">April</option>
+                        <option value="05">May</option>
+                        <option value="06">June</option>
+                        <option value="07">July</option>
+                        <option value="08">August</option>
+                        <option value="09">September</option>
+                        <option value="10">October</option>
+                        <option value="11">November</option>
+                        <option value="12">December</option> 
+                    </select>
+                </label>
+                
+                <label> Year <input class="birthYear" max="4" name="year" placeholder="Year" required=""></label>  
+            </fieldset>
+            
+            <!-- Personal Contact Information -->
+            <select class="select-style gender" name="gender">
+                <option value="select">I am...</option>
+                <option value="M">Male</option>
+                <option value="F">Female</option>
+                <option value="Other">Other</option>
+            </select><br></br>
+            
+            <p class="contact"><label for="phone">Mobile phone</label></p>
+            <input id="phone" name="phone" placeholder="phone number" required="" type="tel">
+            <br>
+            
+            <button type="submit">I'm Ready!</button>
+            <button type="reset" class="cancelbtn">Rewind!</button>
+        
+        </form>
+    </div>
+
+</body>
+</html>
